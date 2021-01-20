@@ -29,7 +29,7 @@ DynamoDB.  Amazon DynamoDB is a key-value and document database that delivers si
 
 CloudFront real-time logs are delivered to the data stream of your choice in Amazon Kinesis Data Streams (log records are delivered within seconds of a viewer request). You can choose the sampling rate for your real-time logs—that is, the percentage of requests for which you want to receive real-time log records. You can also choose the specific fields that you want to receive in the log records. CloudFront real-time logs contain all the same data points as the standard logs and also contain certain additional information about each request such as viewer request headers, and country code, in a W3C extended format. CloudFront charges for real-time logs, in addition to the charges you incur for using Kinesis Data Streams. More information. 
 
-![API-workflow](../images/ApiControl.png)
+![API-workflow](images/ApiControl.png)
 
 ## Specifics and Utilization
 
