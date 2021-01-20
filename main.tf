@@ -145,7 +145,7 @@ module "api_gateway" {
   }
 
   # Custom domain
-  domain_name                 = "ondotsystems.com"
+  domain_name                 = "domain.com"
   domain_name_certificate_arn = var.certificate
 
   default_stage_access_log_destination_arn = aws_cloudwatch_log_group.logs.arn
@@ -231,7 +231,7 @@ resource "aws_cloudfront_origin_access_identity" "origin_access_identity" {
 
 resource "aws_cloudfront_distribution" "cloudfront_distribution" {
   origin {
-    domain_name = "ondotsystems.com"
+    domain_name = "domain.com"
     origin_id   = "custom"
 
     custom_origin_config {

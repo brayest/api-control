@@ -62,7 +62,7 @@
             'client': [
               {
                 'key': 'client',
-                'value': 'ondot'
+                'value': 'client'
               }
             ],
             'host': [
