@@ -19,7 +19,7 @@
 
 ## Solution
 
-The solution leverages AWS CloudFront, Ltmbda@Edge, DynamoDB and API Gateway. 
+The solution leverages AWS CloudFront, Lambda@Edge, DynamoDB and API Gateway. 
 
 Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment.
 CloudFront offers the most advanced security capabilities, including field level encryption and HTTPS support, seamlessly integrated with AWS Shield, AWS Web Application Firewall and Route 53 to protect against multiple types of attacks including network and application layer DDoS attacks. These services co-reside at edge networking locations – globally scaled and connected via the AWS network backbone – providing a more secure, performant, and available experience for your users.
