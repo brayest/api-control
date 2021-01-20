@@ -1,0 +1,99 @@
+{
+  'Records': [
+    {
+      'cf': {
+        'config': {
+          'distributionDomainName': 'dz1zynyjbajfz.cloudfront.net',
+          'distributionId': 'E3G6SHSJ03Y5O1',
+          'eventType': 'origin-request',
+          'requestId': 'pWzBHY3EQrhV9UEjmXk06Jdtzil1QgUpuw-Z0rmkbbgg9cGWPo80wg=='
+        },
+        'request': {
+          'body': {
+            'action': 'read-only',
+            'data': '',
+            'encoding': 'base64',
+            'inputTruncated': False
+          },
+          'clientIp': '91.76.252.20',
+          'headers': {
+            'if-none-match': [
+              {
+                'key': 'If-None-Match',
+                'value': '"81f64cadfdf02ba7081346e92c0dfc09"'
+              }
+            ],
+            'x-forwarded-for': [
+              {
+                'key': 'X-Forwarded-For',
+                'value': '91.76.252.20'
+              }
+            ],
+            'user-agent': [
+              {
+                'key': 'User-Agent',
+                'value': 'Amazon CloudFront'
+              }
+            ],
+            'via': [
+              {
+                'key': 'Via',
+                'value': '1.1 16680cb8308307715d75bb3354b1ae39.cloudfront.net (CloudFront)'
+              }
+            ],
+            'accept-encoding': [
+              {
+                'key': 'Accept-Encoding',
+                'value': 'gzip'
+              }
+            ],
+            'if-modified-since': [
+              {
+                'key': 'If-Modified-Since',
+                'value': 'Fri, 20 Nov 2020 17:04:39 GMT'
+              }
+            ],
+            'upgrade-insecure-requests': [
+              {
+                'key': 'Upgrade-Insecure-Requests',
+                'value': '1'
+              }
+            ],
+            'client': [
+              {
+                'key': 'client',
+                'value': 'ondot'
+              }
+            ],
+            'host': [
+              {
+                'key': 'Host',
+                'value': 'cloudfront-a-oneconnect-jenkins-dev.s3.us-east-2.amazonaws.com'
+              }
+            ],
+            'cache-control': [
+              {
+                'key': 'Cache-Control',
+                'value': 'max-age=0'
+              }
+            ]
+          },
+          'method': 'GET',
+          'origin': {
+            's3': {
+              'authMethod': 'origin-access-identity',
+              'customHeaders': {
+                
+              },
+              'domainName': 'cloudfront-a-oneconnect-jenkins-dev.s3.us-east-2.amazonaws.com',
+              'path': '',
+              'region': 'us-east-2'
+            }
+          },
+          'querystring': '',
+          'uri': '/index.html'
+        }
+      }
+    }
+  ]
+}
